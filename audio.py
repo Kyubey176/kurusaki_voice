@@ -81,3 +81,5 @@ async def stop(ctx):
 
 
 bot.run(os.environ['BOT_TOKEN'])
+
+client.user.setActivity('YouTube', { type: 'WATCHING' });
