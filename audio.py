@@ -56,7 +56,7 @@ async def play(ctx, *,url):
     players[play_server.id] = player
     if player.is_live == True:
         await bot.say("Can not play live audio yet.")
-    elif player.is_live == False:
+    elif player.is_live == True:
         player.start()
 
 
